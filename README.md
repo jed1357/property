@@ -7,4 +7,15 @@
     sudo apt install postgresql-10-postgis-scripts
     
 ```
+
+#### For Postgres 11
+```
+sudo apt install postgresql-11-postgis-2.5
+
+```
+Login to database shell with the command below: 
+
+```
+sudo su - postgres
+```
 - After that, run ```CREATE EXTENSION postgis```.
