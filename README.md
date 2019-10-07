@@ -7,6 +7,17 @@
     sudo apt install postgresql-10-postgis-scripts
     
 ```
+
+#### For Postgres 11
+```
+sudo apt install postgresql-11-postgis-2.5
+
+```
+Login to database shell with the command below: 
+
+```
+sudo su - postgres
+```
 - After that, run ```CREATE EXTENSION postgis```.
 
 Installation guide for postgis is https://postgis.net/install/
@@ -14,3 +25,4 @@ Installation guide for postgis is https://postgis.net/install/
 - Ensure GDAL is installed (https://gist.github.com/mojodna/2f596ca2fca48f08438e)[help here]
 
 - Install Conda to deal with GDAL issues on EC 2 Use this link to install Conda: https://www.anaconda.com/rpm-and-debian-repositories-for-miniconda/
+
